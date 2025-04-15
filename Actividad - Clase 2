@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Últimas noticias del tenis y deportes con foco en Djokovic, Messi, Jordan y más.">
+  <title>ESPN - Noticias del deporte</title>
+</head>
+<body>
+    <header>
+        <img src="https://static.vecteezy.com/system/resources/thumbnails/027/127/453/small_2x/espn-logo-espn-icon-transparent-free-png.png" width="150" height="125">
+    </header>
+    <nav>
+        <img src="https://cdn-icons-png.flaticon.com/512/4892/4892516.png" width="50" height="50" alt="Icono de Tenis">
+        <h2>Tenis</h2>
+        <a href="REPECKA AGUSTIN.html">Calendario</a>
+        <a href="REPECKA AGUSTIN.html">Resultados</a>
+        <a href="REPECKA AGUSTIN.html">Ranking</a>
+    </nav>
+<main>
+    <section>
+        <h1>Djokovic eligió al mejor deportista de la historia entre Messi, Jordan, Mayweather y Brady</h1>
+        <article>
+            <iframe width="640" height="360" src="https://www.youtube.com/embed/T6hsUSAVmu8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </article>
+        <article>
+            <P><strong>Djokovic (5° del ranking mundial)</strong> es uno de los grandes atletas de todos los tiempos. <em>El serbio lleva ganados 99 títulos a nivel ATP, siendo 24 de ellos de Grand Slam.</em> Con todo lo que implica su nombre, <strong>Nole se atrevió a elegir al mejor deportista de todos los tiempos en un divertido ping pong.</strong></P>
+        </article>
+        <article>    
+        <img src="https://a1.espncdn.com/combiner/i?img=%2Fphoto%2F2025%2F0414%2Fr1478481_1296x729_16%2D9.jpg&w=570&format=jpg"/>
+        <p>Djokovic se la jugó sobre quién es el mejor.</p>    
+    </article>
+    <p>El juego organizado por <em>Over Time Tennis</em>  incluía a leyendas como <strong>Tom Brady (NFL), Michael Jordan (basquet), Floyd Mayweather (boxeo), Conor McGregor (MMA), Usain Bolt (atletismo), Lewis Hamilton (automovilismo), Michael Phelps (natación), Lionel Messi (fútbol) y al propio Djokovic (tenis).</strong></p>
+    <p>Inicialmente, Novak se inclinó por Brady por sobre Jordan, Mayweather, McGregor, Bolt, Hamilton y Phelps. Sin embargo, le pidió disculpas a Tom a la hora de enfrentarlo con <u>Messi</u>, eligiendo al argentino. También votó al campeón del mundo en Qatar 2022 contra sí mismo. Para Djokovic, <u>Lionel es el mejor deportista de todos los tiempos.</u></p>
+    </section>
+    <section>
+        <h3>Relacionado</h3>
+        <article>
+            <img src="https://a.espncdn.com/combiner/i?img=/photo/2025/0330/r1471283_729x729_1-1.jpg&w=130&h=130&scale=crop&location=center"/>
+            <a href="https://www.espn.com.ar/tenis/nota/_/id/14980679/messi-djokovic-festejo-raqueta-tenis-inter-miami-vuelta-al-mundo">Messi, Djokovic y una nueva revolución: el festejo tenístico del argentino que da vuelta al mundo</a>
+            <p><em>15 dias</em></p>
+        </article>
+        <article>
+            <img src="https://a.espncdn.com/combiner/i?img=/photo/2025/0329/r1470649_702x702_1-1.jpg&w=130&h=130&scale=crop&location=center"/>
+            <a href="https://www.espn.com.ar/tenis/nota/_/id/14973540/novak-djokovic-lionel-messi-miami-open-semifinales-goat-atp-masters-1000-tenis-futbol-rio-paris-2024-qatar-2022">Messi y Djokovic, cara a cara nuevamente: la historia que une a las dos leyendas</a>
+            <p><em>15 dias</em></p>
+        </article>
+        <article>
+            <img src="https://a.espncdn.com/combiner/i?img=/photo/2025/0409/r1476180_1296x1296_1-1.jpg&w=130&h=130&scale=crop&location=center"/>
+            <a href="https://www.espn.com.ar/tenis/nota/_/id/15027656/novak-djokovic-ranking-mundial-atp-montecarlo-estreno-debut-segunda-ronda-derrota-alejandro-tabilo-numero-1-tenis">Así quedó el ranking mundial ATP de Novak Djokovic tras su estreno con derrota en Monte-Carlo</a>
+            <p><em>5 dias</em></p>
+        </article>
+    </section>
+</main>
+<footer>
+    <h4>Ante cualquier consulta:</h4><a href="mailto:agustinrepecka@gmail.com">Mail</a>
+    <a href="https://www.espn.com.ar/tenis/nota/_/id/15050578/novak-djokovic-eligio-al-mejor-deportista-de-la-historia-entre-lionel-messi-michael-jordan-floyd-mayweather-tom-brady-declaraciones">Pagina original</a>
+</footer>
+</body>
