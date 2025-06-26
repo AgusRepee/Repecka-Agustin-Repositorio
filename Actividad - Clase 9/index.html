@@ -18,7 +18,7 @@
 </div>
 </header>
 <main>
-<img id="imagen1" src="image.png" alt="Toyota Imagen" width="1000px">
+<img id="imagen1" src="image.png" alt="Toyota Imagen" height="600px" width="100%">
 <div id="contenedor">
 <section class="noticias">
 <h4>TITULO 8</h4>
@@ -49,12 +49,80 @@
         <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Doloremque vel alias voluptatibus, distinctio ad facere aliquid illo itaque cum quaerat veritatis mollitia optio eveniet quod natus saepe commodi enim esse?</p>
     </div>
 </section>
+<section id="formulario">
+    <div class="formulario">
+        <div id="headerform">
+            <h1 class="title" id="dynamicTitle">FORMULARIO DE SUSCRIPCION</h1>
+        </div>
+        <div class="form-container">
+            <form id="mainForm">
+                <div class="form-grid">
+                    <div class="field-group">
+                        <label for="nombreCompleto">Nombre Completo</label>
+                        <input type="text" id="nombreCompleto" name="nombreCompleto" placeholder="Ingresa tu nombre completo">
+                        <div class="error-message" id="error-nombreCompleto"></div>
+                    </div>
+                    <div class="field-group">
+                        <label for="email">Email</label>
+                        <input type="text" id="email" name="email" placeholder="ejemplo@correo.com">
+                        <div class="error-message" id="error-email"></div>
+                    </div>
+                    <div class="field-group">
+                        <label for="contraseña">Contraseña</label>
+                        <input type="password" id="contraseña" name="contraseña" placeholder="Ingresa tu contraseña">
+                        <div class="error-message" id="error-contraseña"></div>
+                    </div>
+                    <div class="field-group">
+                        <label for="edad">Edad</label>
+                        <input type="number" id="edad" name="edad" placeholder="Ingresa tu edad">
+                        <div class="error-message" id="error-edad"></div>
+                    </div>
+                    <div class="field-group">
+                        <label for="telefono">Teléfono</label>
+                        <input type="tel" id="telefono" name="telefono" placeholder="Ingresa tu número de teléfono">
+                        <div class="error-message" id="error-telefono"></div>
+                    </div>
+                    <div class="field-group">
+                        <label for="direccion">Dirección</label>
+                        <input type="text" id="direccion" name="direccion" placeholder="Ingresa tu dirección">
+                        <div class="error-message" id="error-direccion"></div>
+                    </div>
+                    <div class="field-group">
+                        <label for="ciudad">Ciudad</label>
+                        <input type="text" id="ciudad" name="ciudad" placeholder="Ingresa tu ciudad">
+                        <div class="error-message" id="error-ciudad"></div>
+                    </div>
+                    <div class="field-group">
+                        <label for="codigoPostal">Código Postal</label>
+                        <input type="text" id="codigoPostal" name="codigoPostal" placeholder="Ingresa tu código postal">
+                        <div class="error-message" id="error-codigoPostal"></div>
+                    </div>
+                    <div class="field-group">
+                        <label for="dni">DNI</label>
+                        <input type="text" id="dni" name="dni" placeholder="Ingresa tu DNI">
+                        <div class="error-message" id="error-dni"></div>
+                    </div>
+                    <div class="submit-container">
+                        <button type="submit" class="submit-btn">ENVIAR</button>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+</section>
+<div id="modal-message" class="modal">
+  <div class="modal-content">
+    <span class="close-modal" id="close-modal">&times;</span>
+    <div id="modal-body"></div>
+  </div>
+</div>
 </main>
 <footer>
 <div id="footer1">
-<p id="izq">TITULO 3</p>
-<p>1</p>
+    <p id="der">TITULO 3</p>
+    <p id="izq">1</p>
 </div>
 </footer>
+<script src="script.js"></script>
 </body>
 </html>
