@@ -1,0 +1,21 @@
+#contenedor {
+    width: 700px;
+    }
+#cabecera {
+    background-color: rgb(255, 240, 240);
+    }
+#menu {
+        float: left;
+        width: 150px;
+        background-color: antiquewhite;
+    }    
+#contenido {
+    float: left;
+    width: 550px;
+    background-color: rgb(253, 249, 234);
+    }
+#pie {
+    clear: both;
+    background-color: rgb(187, 185, 185);
+    display: none;
+    }

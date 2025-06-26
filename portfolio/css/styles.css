@@ -1,0 +1,141 @@
+/* General */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Navbar */
+.navbar {
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.navbar-brand {
+    font-weight: bold;
+}
+
+.navbar-nav .nav-link {
+    font-weight: 600;
+}
+
+/* Sección de Inicio */
+#inicio {
+    background-color: #f8f9fa;
+    padding-top: 100px; /* Ajuste para evitar que el contenido se sobreponga con la navbar fija */
+}
+
+#inicio img {
+    border-radius: 50%;
+    max-width: 200px;
+}
+
+/* Sección de Habilidades */
+#habilidades .card {
+    border: none;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+
+#habilidades .card-body {
+    text-align: center;
+}
+
+.progress {
+    height: 10px;
+    margin-top: 10px;
+    border-radius: 5px;
+}
+
+/* Sección de Proyectos */
+#proyectos .carousel-item img {
+    object-fit: cover;
+    width: 100%;
+    height: 300px;
+    border-radius: 10px;
+}
+
+#proyectos .carousel-item {
+    padding: 20px;
+}
+
+#proyectos .carousel-inner {
+    border-radius: 10px;
+    overflow: hidden;
+    background-color: #f8f9fa;
+}
+
+#proyectos .card {
+    border: none;
+    border-radius: 10px;
+}
+
+#proyectos .card-body {
+    padding: 20px;
+}
+
+#proyectos .card-title {
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+#proyectos .carousel-control-prev, 
+#proyectos .carousel-control-next {
+    font-size: 2rem;
+    color: #000;
+}
+
+#proyectos .carousel-indicators li {
+    background-color: #000;
+}
+
+/* Sección de Contacto */
+#contacto .form-control {
+    border-radius: 10px;
+    border-color: #ccc;
+    padding: 15px;
+}
+
+#contacto .btn-primary {
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+/* Footer */
+footer {
+    background-color: #343a40;
+    color: #fff;
+}
+
+/* Estilo de las redes sociales */
+#contacto .bi {
+    margin: 0 10px;
+    font-size: 1.5rem;
+}
+
+#contacto .bi:hover {
+    color: #007bff;
+}
+
+/* Ajustes Responsivos */
+@media (max-width: 768px) {
+    #inicio img {
+        max-width: 150px;
+    }
+
+    #habilidades .card {
+        margin-bottom: 15px;
+    }
+
+    #habilidades .card-body {
+        padding: 10px;
+    }
+
+    #proyectos .carousel-item img {
+        height: 250px;
+    }
+
+    .carousel-control-prev, .carousel-control-next {
+        font-size: 1.5rem;
+    }
+}
